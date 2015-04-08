@@ -18,7 +18,7 @@ class KeywordTest extends TestCase
     {
 
         $keyword = $this->getMockSelf();
-        $combinations = rand(1,10);
+        $combinations = rand(1, 10);
         $keyword->setKeywordCombinations($combinations);
 
         $data = $keyword->getData();

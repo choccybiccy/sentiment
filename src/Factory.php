@@ -36,7 +36,7 @@ class Factory
     {
 
         $className = __NAMESPACE__ . "\\" . $endpoint;
-        if(!class_exists($className)) {
+        if (!class_exists($className)) {
             throw new NonexistentEndpointException("No such endpoint '" . $endpoint . "'");
         }
 

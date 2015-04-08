@@ -64,8 +64,8 @@ class Response
     public function getResult($key = null)
     {
         $result = $this->responseData['output']['result'];
-        if($key) {
-            if(!is_array($result)) {
+        if ($key) {
+            if (!is_array($result)) {
                 throw new InvalidArgumentException("You cannot specify a key when the result is not an array");
             }
             return $result[$key];
@@ -80,7 +80,7 @@ class Response
      */
     public function getErrorCode()
     {
-        if($this->isSuccess()) {
+        if ($this->isSuccess()) {
             return false;
         }
         return (int) $this->responseData['output']['error']['ErrorCode'];
@@ -93,7 +93,7 @@ class Response
      */
     public function getErrorMessage()
     {
-        if($this->isSuccess()) {
+        if ($this->isSuccess()) {
             return false;
         }
         return $this->responseData['output']['error']['ErrorMessage'];

@@ -18,13 +18,13 @@ class AbstractSentimentTest extends TestCase
         $sentiment = $this->getMockSelf(array(), true);
 
         $data = array(
-            "example" => md5(mt_rand(0,1000)),
+            "example" => md5(mt_rand(0, 1000)),
             "api_key" => md5(time()),
         );
         $sentiment->setData($data);
         $this->assertEquals($data, $sentiment->getData());
 
-        $another = md5(mt_rand(1000,2000));
+        $another = md5(mt_rand(1000, 2000));
         $data['another'] = $another;
 
         $sentiment->addData("another", $another);
@@ -63,7 +63,7 @@ class AbstractSentimentTest extends TestCase
         $this->setProtectedProperty($sentiment, "endpoint", "TestEndpoint");
 
         $data = array(
-            "example" => md5(mt_rand(0,1000)),
+            "example" => md5(mt_rand(0, 1000)),
             "api_key" => md5(time()),
         );
 

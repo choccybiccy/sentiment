@@ -59,7 +59,7 @@ abstract class AbstractSentiment
      */
     public function request(array $data = array())
     {
-        if(count($data)) {
+        if (count($data)) {
             $this->setData($data);
         }
         $url = $this->buildUrl();
