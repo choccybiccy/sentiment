@@ -1,0 +1,24 @@
+{
+    "name": "choccybiccy/sentiment",
+    "description": "Sentiment analysis using the DatumBox API",
+    "require": {
+        "guzzlehttp/guzzle": "~5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Hughes",
+            "email": "martinph01@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { "Choccybiccy\\Sentiment\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Choccybiccy\\Sentiment\\": "tests/" }
+    }
+}
