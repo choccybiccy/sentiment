@@ -1,4 +1,5 @@
-# Sentiment Analysis [![Build Status](https://travis-ci.org/choccybiccy/sentiment.svg?branch=master)](https://travis-ci.org/choccybiccy/sentiment) [![Latest Stable Version](https://poser.pugx.org/choccybiccy/sentiment/v/stable.svg)](https://packagist.org/packages/choccybiccy/sentiment) [![License](https://poser.pugx.org/choccybiccy/sentiment/license.svg)](https://packagist.org/packages/choccybiccy/sentiment) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/adac3e83-af62-4e8e-b5cd-4e9d5394f589/mini.png)](https://insight.sensiolabs.com/projects/adac3e83-af62-4e8e-b5cd-4e9d5394f589)
+# Sentiment Analysis
+[![Build Status](https://travis-ci.org/choccybiccy/sentiment.svg?branch=master)](https://travis-ci.org/choccybiccy/sentiment) [![Latest Stable Version](https://poser.pugx.org/choccybiccy/sentiment/v/stable.svg)](https://packagist.org/packages/choccybiccy/sentiment) [![License](https://poser.pugx.org/choccybiccy/sentiment/license.svg)](https://packagist.org/packages/choccybiccy/sentiment) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/adac3e83-af62-4e8e-b5cd-4e9d5394f589/mini.png)](https://insight.sensiolabs.com/projects/adac3e83-af62-4e8e-b5cd-4e9d5394f589)
 
 Various analysis tools using the Datumbox API.
 
